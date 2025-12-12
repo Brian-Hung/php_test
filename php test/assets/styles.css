@@ -1,0 +1,86 @@
+/* Styles giống hình mẫu */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header bar */
+header {
+  background: #E96842; /* màu cam */
+  color: white;
+  padding: 18px 30px;
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  gap: 30px;
+}
+
+/* Title */
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #C7831E;
+  margin-top: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+/* Add New button */
+.add-btn {
+  background: #E96842;
+  border: none;
+  padding: 8px 18px;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.add-btn:hover {
+  opacity: 0.85;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th {
+  background: #C15A34;
+  color: white;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+table td {
+  padding: 12px;
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+
+table tr:hover td {
+  background: #fafafa;
+}
+
+/* Icon buttons */
+.icon-btn {
+  margin-right: 10px;
+  cursor: pointer;
+  color: #6d6d6d;
+  transition: 0.2s;
+}
+
+.icon-btn:hover {
+  color: #000;
+}
